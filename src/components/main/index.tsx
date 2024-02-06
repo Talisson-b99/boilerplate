@@ -1,5 +1,11 @@
+import * as S from './styles'
+
 const Main = () => {
-	return <h1>React Avançado</h1>
+	return (
+		<S.Wrapper>
+			<h1>React Avançado</h1>
+		</S.Wrapper>
+	)
 }
 
 export default Main

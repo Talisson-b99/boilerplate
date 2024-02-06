@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the reading 1`] = `
-<h1>
-  React Avançado
-</h1>
+<main
+  class="sc-beySPh bNWKbj"
+>
+  <h1>
+    React Avançado
+  </h1>
+</main>
 `;
