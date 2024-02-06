@@ -9,6 +9,7 @@ module.exports = {
 			`prettier --write ${quotedFilenames}`,
 			// Ajuste para o comando lint, se necessário
 			`npm run lint --fix . --file ${quotedFilenames}`
+			// `npm test -- --findRelatedTests ${filenames.join(' ')}`
 		]
 	}
 }
